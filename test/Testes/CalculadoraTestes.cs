@@ -70,6 +70,7 @@ namespace tdd_challenge.Testes
             calc.Somar(3, 4);
             calc.Somar(5, 6);
             calc.Somar(7, 8);
+
             var lista = calc.Historico();
 
             Assert.NotEmpty(lista);
